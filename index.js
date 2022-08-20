@@ -6,34 +6,46 @@ const generateReadme = require("./utils/generateMarkdown")
 // TODO: Create an array of questions for user input
 const questions = [{
     type: 'input',
-    name: "title",
-    message: "What's the title of your repository"
+    name: 'title',
+    message: 'Whats the title of your repository',
 },
-// {
-//     type: 'input',
-//     name: "installation"
-//     message:
-// },
-// {
-//     type: 'input',
-//     name:
-//         message
-// },
-// {
-//     type: 'input',
-//     name:
-//         message
-// },
-// {
-//     type: 'input',
-//     name:
-//         message
-// },
-// {
-//     type: 'input',
-//     name:
-//         message
-// }
+{
+    type: 'input',
+    name: 'installation',
+    message: '',
+},
+{
+    type: 'input',
+    name: 'usage',
+    message: '',
+},
+{
+    type: 'input',
+    name: 'credits',
+    message: '',
+},
+{
+    type: 'input',
+    name: 'license',
+    message: '',
+},
+{
+    type: 'input',
+    name: 'badges',
+    message: '',
+
+    type: 'input',
+    name: 'features',
+    message: '',
+
+    type: 'input',
+    name: 'how to contribute',
+    message: '',
+
+    type: 'input',
+    name: 'tests',
+    message: '',
+}
 ];
 
 // TODO: Create a function to write README file
