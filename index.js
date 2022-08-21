@@ -16,11 +16,6 @@ const questions = [{
 },
 {
     type: 'input',
-    name: 'table of contents',
-    message: 'Table of contents',
-},
-{
-    type: 'input',
     name: 'installation',
     message: 'What does the user need to install to run this app',
 },
@@ -43,18 +38,23 @@ const questions = [{
     type: 'input',
     name: 'badges',
     message: 'What badges are being used for this app?',
-
+},
+{
     type: 'input',
     name: 'features',
     message: 'What features does the app use?',
-
+},
+{
     type: 'input',
-    name: 'how to contribute',
-    message: '',
-
+    name: 'howToContribute',
+    message: 'How do users contribute to this repository',
+    default: 'fork repository'
+},
+{
     type: 'input',
     name: 'tests',
     message: 'What commands are needed to test this app',
+    default: 'N/A'
 }
 ];
 
