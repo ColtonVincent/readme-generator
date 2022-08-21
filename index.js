@@ -7,36 +7,46 @@ const generateReadme = require("./utils/generateMarkdown")
 const questions = [{
     type: 'input',
     name: 'title',
-    message: 'Whats the title of your repository',
+    message: 'Whats the title of your repository?',
+},
+{
+    type: 'input',
+    name: 'description',
+    message: 'What is ths project about? Give a detailed description of your project',
+},
+{
+    type: 'input',
+    name: 'table of contents',
+    message: 'Table of contents',
 },
 {
     type: 'input',
     name: 'installation',
-    message: '',
+    message: 'What does the user need to install to run this app',
 },
 {
     type: 'input',
     name: 'usage',
-    message: '',
+    message: 'How is this app used? Give instructions',
 },
 {
     type: 'input',
     name: 'credits',
-    message: '',
+    message: 'Who contributed to this project?',
 },
 {
     type: 'input',
     name: 'license',
-    message: '',
+    message: 'What license is being used?',
 },
 {
     type: 'input',
     name: 'badges',
-    message: '',
+    message: 'What badges are being used for this app?',
 
     type: 'input',
     name: 'features',
-    message: '',
+    message: 'What features does the app use?',
 
     type: 'input',
     name: 'how to contribute',
@@ -44,7 +54,7 @@ const questions = [{
 
     type: 'input',
     name: 'tests',
-    message: '',
+    message: 'What commands are needed to test this app',
 }
 ];
 
