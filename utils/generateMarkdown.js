@@ -12,9 +12,11 @@ function generateMarkdown(data) {
   return `# ${data.title}
   ## Description
 
+  ${data.description}
   
   ## Table of Contents
   
+  ${data.table_of_contents}
   - [Installation](#installation)
   - [Usage](#usage)
   - [Credits](#credits)
@@ -30,15 +32,11 @@ function generateMarkdown(data) {
   
   ## Usage
   
-  Provide instructions and examples for use. Include screenshots as needed.
+  ${data.usage}
   
   ## Credits
   
-  List your collaborators, if any, with links to their GitHub profiles.
-  
-  If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.
-  
-  If you followed tutorials, include links to those here as well.
+  ${data.credits}
   
   ## License
   
@@ -50,13 +48,15 @@ function generateMarkdown(data) {
   
   ## Features
   
-  If your project has a lot of features, list them here.
+  ${data.features}
   
   ## How to Contribute
   
   If you created an application or package and would like other developers to contribute it, you can include guidelines for how to do so. The [Contributor Covenant](https://www.contributor-covenant.org/) is an industry standard, but you can always write your own if you'd prefer.
   
   ## Tests
+
+  ${data.tests}
   
 `;
 }
