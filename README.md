@@ -1,7 +1,7 @@
-# Readme-Generator
+# ReadMe Generator
   ## Description
 
-   This was designed to allow devolpers to create a professional ReadMe.md file in a way that is clean and efficient.
+   This was designed to allow devolpers to create a professional ReadMe.md file in a way that is clean, efficient, and easily.
   
   ## Table of Contents
   
@@ -24,7 +24,7 @@
   
   ## Credits
   
-  n/a
+  Me
   
   ## License
   
@@ -36,7 +36,7 @@
   
   ## Features
   
-  n/a
+  N/A
   
   ## How to Contribute
   
